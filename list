@@ -1,0 +1,115 @@
+1. Arteta, C., Lempitsky, V., Noble, J.A., Zisserman, A.: Learning to detect partially
+overlapping instances. In: Computer Vision and Pattern Recognition (CVPR),
+2013 IEEE Conference on, IEEE (2013) 3230–3237
+2. Trager, W., Jensen, J.B.: Human malaria parasites in continuous culture. Science
+193(4254) (1976) 673–675
+3. Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.: Simultaneous detection and
+segmentation. In: Computer Vision–ECCV 2014. Springer (2014) 297–312
+4. Chen, Y.T., Liu, X., Yang, M.H.: Multi-instance object segmentation with occlusion handling. In: Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition. (2015) 3470–3478
+5. Vineet, V., Warrell, J., Ladicky, L., Torr, P.H.: Human instance segmentation from
+video using detector-based conditional random fields. In: BMVC. (2011) 1–11
+6. Dehaene, S., Cohen, L.: Dissociable mechanisms of subitizing and counting: neuropsychological evidence from simultanagnosic patients. Journal of Experimental
+Psychology: Human Perception and Performance 20(5) (1994) 958
+7. Porter, G., Troscianko, T., Gilchrist, I.D.: Effort during visual search and counting:
+Insights from pupillometry. The Quarterly Journal of Experimental Psychology
+60(2) (2007) 211–229
+8. Ladick`y, L., Sturgess, P., Alahari, K., Russell, C., Torr, P.H.: What, where and
+how many? combining object detectors and crfs. In: Computer Vision–ECCV 2010.
+Springer (2010) 424–437
+9. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: Computer Vision and Pattern
+Recognition (CVPR), 2014 IEEE Conference on, IEEE (2014) 580–587
+10. Arbelaez, P., Pont-Tuset, J., Barron, J., Marques, F., Malik, J.: Multiscale combinatorial grouping. In: Computer Vision and Pattern Recognition (CVPR), 2014
+IEEE Conference on, IEEE (2014) 328–335
+11. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic
+segmentation. In: Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition. (2015) 3431–3440
+12. Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.: Semantic
+image segmentation with deep convolutional nets and fully connected crfs. arXiv
+preprint arXiv:1412.7062 (2014)
+13. Zheng, S., Jayasumana, S., Romera-Paredes, B., Vineet, V., Su, Z., Du, D., Huang,
+C., Torr, P.H.: Conditional random fields as recurrent neural networks. IEEE
+International Conference on Computer Vision (IEEE ICCV) (2015)
+14. Liang, X., Wei, Y., Shen, X., Yang, J., Lin, L., Yan, S.: Proposal-free network for
+instance-level object segmentation. arXiv preprint arXiv:1509.02636 (2015)
+15. Tighe, J., Niethammer, M., Lazebnik, S.: Scene parsing with object instances and
+occlusion ordering. In: Computer Vision and Pattern Recognition (CVPR), 2014
+IEEE Conference on, IEEE (2014) 3748–3755
+16. Yang, Y., Hallman, S., Ramanan, D., Fowlkes, C.C.: Layered object models for image segmentation. Pattern Analysis and Machine Intelligence, IEEE Transactions
+on 34(9) (2012) 1731–1743
+17. Zhang, Z., Schwing, A.G., Fidler, S., Urtasun, R.: Monocular object instance segmentation and depth ordering with cnns. arXiv preprint arXiv:1505.03159 (2015)
+18. Bahdanau, D., Cho, K., Bengio, Y.: Neural machine translation by jointly learning
+to align and translate. arXiv preprint arXiv:1409.0473 (2014)
+19. Graves, A., Schmidhuber, J.: Offline handwriting recognition with multidimensional recurrent neural networks. In: Advances in Neural Information Processing
+Systems. (2009) 545–552
+20. Vinyals, O., Le, Q.: A neural conversational model. arXiv preprint
+arXiv:1506.05869 (2015)
+21. Gregor, K., Danihelka, I., Graves, A., Wierstra, D.: Draw: A recurrent neural
+network for image generation. Proceedings of the 32nd International Conference
+on Machine Learning (2015)
+22. Donahue, J., Anne Hendricks, L., Guadarrama, S., Rohrbach, M., Venugopalan,
+S., Saenko, K., Darrell, T.: Long-term recurrent convolutional networks for visual
+recognition and description. In: Proceedings of the IEEE Conference on Computer
+Vision and Pattern Recognition. (2015) 2625–2634
+23. Karpathy, A., Fei-Fei, L.: Deep visual-semantic alignments for generating image
+descriptions. arXiv preprint arXiv:1412.2306 (2014)
+24. Vinyals, O., Toshev, A., Bengio, S., Erhan, D.: Show and tell: A neural image
+caption generator. In: Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition. (2015) 3156–3164
+25. Winther, O.: Convolutional lstm networks for subcellular localization of proteins.
+In: Algorithms for Computational Biology: Second International Conference, AlCoB 2015, Mexico City, Mexico, August 4-5, 2015, Proceedings. Volume 9199.,
+Springer (2015) 68
+26. Stewart, R., Andriluka, M.: End-to-end people detection in crowded scenes. arXiv
+preprint arXiv:1506.04878 (2015)
+27. Pavel, M.S., Schulz, H., Behnke, S.: Recurrent convolutional neural networks for
+object-class segmentation of rgb-d video. In: Neural Networks (IJCNN), 2015
+International Joint Conference on, IEEE (2015) 1–8
+28. Ba, J., Mnih, V., Kavukcuoglu, K.: Multiple object recognition with visual attention. International Conference on Learning Representations (2015)
+29. Xu, K., Ba, J., Kiros, R., Courville, A., Salakhutdinov, R., Zemel, R., Bengio,
+Y.: Show, attend and tell: Neural image caption generation with visual attention.
+arXiv preprint arXiv:1502.03044 (2015)
+30. Mnih, V., Heess, N., Graves, A., et al.: Recurrent models of visual attention. In:
+Advances in Neural Information Processing Systems. (2014) 2204–2212
+31. Hermann, K.M., Koˇcisk`y, T., Grefenstette, E., Espeholt, L., Kay, W., Suleyman,
+M., Blunsom, P.: Teaching machines to read and comprehend. arXiv preprint
+arXiv:1506.03340 (2015)
+32. Hochreiter, S., Schmidhuber, J.: Long short-term memory. Neural computation
+9(8) (1997) 1735–1780
+33. Fischer, P., Dosovitskiy, A., Ilg, E., H¨ausser, P., Hazırba¸s, C., Golkov, V., van der
+Smagt, P., Cremers, D., Brox, T.: Flownet: Learning optical flow with convolutional
+networks. arXiv preprint arXiv:1504.06852 (2015)
+34. Shi, X., Chen, Z., Wang, H., Yeung, D.Y., Wong, W.K., Woo, W.c.: Convolutional
+lstm network: A machine learning approach for precipitation nowcasting. arXiv
+preprint arXiv:1506.04214 (2015)
+35. Kr¨ahenb¨uhl, P., Koltun, V.: Parameter learning and convergent inference for dense
+random fields. In: Proceedings of the 30th International Conference on Machine
+Learning (ICML-13). (2013) 513–521
+36. Silberman, N., Sontag, D., Fergus, R.: Instance segmentation of indoor scenes
+using a coverage loss. In: Computer Vision–ECCV. Springer (2014) 616–631
+37. Collobert, R., Kavukcuoglu, K., Farabet, C.: Torch7: A matlab-like environment
+for machine learning. In: BigLearn, NIPS Workshop. Number EPFL-CONF-192376
+(2011)
+38. Kingma, D., Ba, J.: Adam: A method for stochastic optimization. arXiv preprint
+arXiv:1412.6980 (2014)
+39. Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Doll´ar, P.,
+Zitnick, C.L.: Microsoft coco: Common objects in context. In: Computer Vision–
+ECCV 2014. Springer (2014) 740–755
+40. Minervini, M., Abdelsamea, M.M., Tsaftaris, S.A.: Image-based plant phenotyping
+with incremental learning and active contours. Ecological Informatics 23 (2014)
+35–48
+41. Minervini, M., Fischbach, A., Scharr, H., Tsaftaris, S.A.: Finely-grained annotated
+datasets for image-based plant phenotyping. Pattern Recognition Letters (2015)
+Special Issue on Fine-grained Categorization in Ecological Multimedia.
+42. Pape, J.M., Klukas, C.: 3-d histogram-based segmentation and leaf detection for
+rosette plants. In: Computer Vision-ECCV 2014 Workshops, Springer (2014) 61–74
+43. Scharr, H., Minervini, M., French, A.P., Klukas, C., Kramer, D.M., Liu, X., Luengo Muntion, I., Pape, J.M., Polder, G., Vukadinovic, D., Yin, X., Tsaftaris, S.A.:
+Leaf segmentation in plant phenotyping: A collation study. Machine Vision and
+Applications (In print) (2015)
+44. Barrow, H.G., Tenenbaum, J.M., Bolles, R.C., Wolf, H.C.: Parametric correspondence and chamfer matching: Two new techniques for image matching. Technical
+report, DTIC Document (1977)
+45. Yin, X., Liu, X., Chen, J., Kramer, D.M.: Multi-leaf tracking from fluorescence
+plant videos. In: Image Processing (ICIP), 2014 IEEE International Conference
+on, IEEE (2014) 408–412
+46. Giuffrida, M.V., Minervini, M., Tsaftaris, S.A.: Learning to count leaves in rosette
+plants, British Machine Vision Conference (CVPPP Workshop). BMVA Press
+(2015)
