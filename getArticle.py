@@ -26,12 +26,29 @@ def _getWenxianList(str_result):
         if line == '':
             continue;
         # print "ORIGIN:"+line
+        nameWord=r'((\w\.)+|[^., ]+)';
         pat = re.compile(
-            SPLIT_FLAG + '(?P<identity>' + IDENTITY + ')' + SPLIT_FLAG + r'\s{,1}(((((\w\.)+|([-\w]+)) )*((\w\.)|(\w+))), )*(((((\w\.)+|([-\w]+)) )*((\w\.)|(\w+)))[.:] )(?P<article>[^.]+). ')
+            SPLIT_FLAG + '(?P<identity>' + IDENTITY + ')' + SPLIT_FLAG + r'\s{,1}('
+                                                                            r'('
+                                                                                r'('+nameWord+' )*'
+                                                                                +nameWord+
+                                                                            r'), '
+                                                                         r')*'
+                                                                         r'('
+                                                                            r'('
+                                                                                 r'('+nameWord+' )*'
+                                                                                 +nameWord+
+                                                                            r')'
+                                                                            r'[.:]{1,2} '
+                                                                         r')'
+                                                                         r'(?P<article>[^.]+). '
+        )
+
         mat = pat.match(line)
         if mat:
-            print mat.group(0)
-            return
+            # print line
+            # print mat.group(0)
+            # return
             id = mat.group('identity');
             arti = mat.group('article');
             while id in result_list:
@@ -41,8 +58,7 @@ def _getWenxianList(str_result):
             oneItem['article']=arti;
             result_list.append(oneItem);
         else:
-            print "No"+line
-            return
+            print "No Match:"+line;
     return result_list;
 
 def _getContent(keyword):
@@ -142,8 +158,6 @@ def getAllFromFile(listFile):
         listContent= mfile.read();
         listContent=formatKeyWord(listContent);
         wlist=_getWenxianList(listContent);
-        print wlist
-        return
         for arti in wlist:
             page=_getContent(arti['article']);
             urls=_getURLs(page);
@@ -152,8 +166,8 @@ def getAllFromFile(listFile):
     print wlist
     return wlist;
 def main():
-    step1=True;
-    step2=False;
+    step1=False;
+    step2=True;
     if step1:
         with open('rs.list','w') as mfile:
            pickle.dump(getAllFromFile('list'),mfile)
